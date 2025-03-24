@@ -1,0 +1,52 @@
+<h2>Task 14 Functions</h2>
+<!DOCTYPE html>
+<html>
+
+
+
+    <body>
+<div id="container_div">
+        <input placeholder="Enter a" id="input_a"/>
+        <input placeholder="Enter b" id="input_b"/>
+<button onclick="generate_random_value();">Generate Random Integer</button>
+<div id="output_div"></div>
+</div>
+        <script>
+            let colors=["red", "green", "blue", "black", "orange", "purple"]
+            function generate_random_value(){
+
+                let a=parseInt(document.getElementById("input_a").value);
+                let b=parseInt(document.getElementById("input_b").value);
+
+                let random_value=Math.floor((b-a)*Math.random(b-a)+a);
+
+                document.getElementById("output_div").innerHTML=random_value;
+                
+
+                let size=colors.length;
+                let idx=Math.floor(Math.random()*size);
+                document.getElementById("output_div").style="color:" +colors[idx];
+
+
+            }
+            function remove_everything(){
+                document.getElementById("container_div").innerHTML="Vanished!";
+            }
+
+            setInterval(remove_everything, 3000);
+        
+
+           // (function (){
+                //alert("Hello world!");
+
+            //})();
+
+
+    //let x=Math.floor(10 * Math.random());
+    //console.log(x);
+    </script>
+
+
+    </body>
+
+</html>
