@@ -1,8 +1,95 @@
-<h2>Task 13: Objects_2 </h2>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>JavaScript Object Demo</title>
+   
+
+    <style>
+        /* Style for the table */
+        table {
+            width: 60%;
+            margin: 20px auto;
+            border-collapse: collapse;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+
+        td input {
+            width: 100%;
+            padding: 10px 0;
+            margin: 7px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+
+        
+        button {
+            padding: 10px 0; 
+            margin: 2px;
+            width: 17%;
+            cursor: pointer;
+            border-radius: 4px;
+            border: none;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+
+        button:focus {
+            outline: none;
+        }
+        
+
+    </style>
+
+</head>
+<body>
+   
+    <h1>My Information</h1>
+    <div>
+
+        <input id="uni" placeholder="Enter uni:"/>
+        <input id="dept" placeholder="Enter dept:"/>
+       
+
+    </div>
+    <div>
+
+        <input id="name" placeholder="Enter name:"/>
+        <input id="color" placeholder="Enter color:"/>
+    </div>
+
+    <button onclick="insert()">Insert Info</button>
+    <button onclick="show_my_info();">Show Info</button>
+    
+    <div id="demo"></div> 
+    <button onclick="clear_inputs()";>Clear All Inputs</button>
+    <button onclick="clear_display()";>Clear Display</button>
+
+    <div>
+        <input type="text" id="search" placeholder="Search..." oninput="search()" />
+    </div>
 
 
+    
+    <script src="script13.js"></script>
+</body>
+</html>
 
-
-<img src="assets/task 13.png" alt="Custom Banner" style="max-width: 100%; margin-top: 20px; border: 1px solid #ccc;" />
 
 
