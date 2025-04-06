@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html >
+<head>
+  
+  <title>Sum Between Numbers</title>
+</head>
+<body>
+  <h1>Sum Between Two Numbers</h1>
+
+  <label for="numA">Enter a:</label>
+  <input type="number" id="numA" required>
+  
+
+  <label for="numB">Enter b:</label>
+  <input type="number" id="numB" required>
+
+  <button onclick="calculateSum()">Calculate</button>
+
+  <h2>Sum: <span id="sumResult">0</span></h2>
+
+  <script>
+    function calculateSum() {
+     
+      let a = parseInt(document.getElementById('numA').value);
+      let b = parseInt(document.getElementById('numB').value);
+
+      
+      if (a > b) {
+        let temp = a;
+        a = b;
+        b = temp;
+      }
+
+      
+      let sum = 0;
+      for (let i = a; i <= b; i++) {
+        sum += i;
+      }
+
+     
+      document.getElementById('sumResult').textContent = sum;
+    }
+  </script>
+</body>
+</html>
