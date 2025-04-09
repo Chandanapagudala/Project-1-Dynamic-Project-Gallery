@@ -1,87 +1,22 @@
 <!DOCTYPE html>
-
-<html>
-    <head>
-<style>
-
-    #div1{text-align: center;
-    color: blue;
-    height: 60px;
-    width: 100px;
-    display: inline-block;
-    
-
-}
-#div2{text-align: center;
-        color: red;
-    height: 60px;
-    width: 100px;
-    display: inline-block;
-    margin-left: -20px;
-    }
-#div3{text-align: center;
-        color: yellow;
-    height: 60px;
-    width: 100px;
-    display: inline-block;
-
-}
-#div4{text-align: center;
-    color: blue;
-    height: 60px;
-    width: 100px;
-    display: inline-block;
-
-}
-#div5{text-align: center;
-    color: green;
-    height: 60px;
-    width: 100px;
-    display: inline-block;
-
-}
-#div6{text-align: center;
-    color: red;
-    height: 60px;
-    width: 100px;
-    display: inline-block;
-
-}
-
-.box:hover{
-    cursor: pointer;
-    scale: 1.4;
-   background-color: darkgrey;
-    transition:all 0.5s;
-}
-
-    
-</style>
-<body>
-
-    <div
-
-        id="div1"  class="box" >G
-    </div>
-    <div
-        id="div2"  class="box">o
-    </div>
-    <div
-
-        id="div3"  class="box">o
-    </div>
-    <div
-
-        id="div4"  class="box">g
-    </div>
-    <div
-
-        id="div5"  class="box">l
-    </div>
-    <div
-
-        id="div6"  class="box">e
-    </div>
-</body>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome Page</title>
+    <script>
+        function welcomeUser() {
+            var username = document.getElementById('username').value;
+            alert("hello " + username) ;
+            
+        }
+    </script>
 </head>
+<body>
+    <h1>Enter your username</h1>
+    <input type="text" id="username" placeholder="Username">
+    <button onclick="welcomeUser()">Enter</button>
+
+    <p id="welcomeMessage"></p>
+</body>
 </html>
