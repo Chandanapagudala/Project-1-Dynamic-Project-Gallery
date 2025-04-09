@@ -2,22 +2,20 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <title>Work Projects</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dynamic Project Gallery</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <nav>
-    <h2>Work Projects</h2>
-    <div id="task-list">
-      <!-- Dynamic links from JSON will appear here -->
-    </div>
-  </nav>
-
-  <main id="content">
-    <h2>Welcome!</h2>
-    <p>Select a task to view its content here.</p>
-  </main>
+  <div class="container">
+    <nav class="sidebar">
+      <h2>My Class Works</h2>
+      <ul id="task-list"></ul>
+    </nav>
+    <main class="content">
+      <iframe id="task-frame" src="" frameborder="0"></iframe>
+    </main>
+  </div>
 
   <script src="script.js"></script>
 </body>
