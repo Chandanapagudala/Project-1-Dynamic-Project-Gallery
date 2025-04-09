@@ -1,15 +1,15 @@
 [
     {
       "title": "Task 1: Basic HTML Styling",
-      "files": ["works/task1.html", "works/task1.2.html"]
+      "files": ["works/task1.html", "tasks/task1.2.html"]
     },
     {
       "title": "Task 2: Responsive Layout",
-      "files": ["works/task2.html", "works/task2.css"]
+      "files": ["works/task2.html", "tasks/task2.css"]
     },
     {
       "title": "Task 3: welcome to js",
-      "files": ["works/task3.html"]
+      "files": ["tasks/task3.html"]
     },
      {
       "title": "Task 4: calculator using js",
@@ -17,47 +17,47 @@
     },
       {
       "title": "Task 5: Github Integration",
-      "files": ["works/task5.html"]
+      "files": ["tasks/task5.html"]
     },
       {
       "title": "Task 6: console output",
-      "files": ["works/task6.html"]
+      "files": ["tasks/task6.html"]
     },
       {
       "title": "Task 7: string operation",
-      "files": ["works/task7.html"]
+      "files": ["tasks/task7.html"]
     },
       {
       "title": "Task 8: conditions",
-      "files": ["works/task8.html"]
+      "files": ["tasks/task8.html"]
     },
       {
       "title": "Task 9: call stack with array",
-      "files": ["works/task9.html"]
+      "files": ["tasks/task9.html"]
     },
       {
       "title": "Task 10: star with loops",
-      "files": ["works/task10.html"]
+      "files": ["tasks/task10.html"]
     },
       {
       "title": "Task 11: class work",
-      "files": ["works/task11.1.html"]
+      "files": ["tasks/task11.1.html"]
     },
       {
       "title": "Task 12: objects",
-      "files": ["works/task12.html"]
+      "files": ["tasks/task12.html"]
     },
       {
       "title": "Task 13: objects 2",
-      "files": ["works/task13.html"]
+      "files": ["tasks/task13.html"]
     },
       {
       "title": "Task 14: Functions",
-      "files": ["works/task14.html"]
+      "files": ["tasks/task14.html"]
     },
       {
       "title": "Task 15: Bootstrap",
-      "files": ["works/task15.html"]
+      "files": ["tasks/task15.html"]
     },
     
   
